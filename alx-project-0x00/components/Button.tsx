@@ -1,4 +1,3 @@
-import React from 'react';
 import { ButtonProps } from '@/interfaces';
 
 const sizeClasses = {
@@ -19,7 +18,7 @@ const Button: React.FC<ButtonProps> = ({
   size = 'medium',
   shape = 'rounded-md',
   className = '',
-  styles,
+  styles = 'bg-blue-600 text-white hover:bg-blue-700 transition',
 }) => {
   return (
     <button
