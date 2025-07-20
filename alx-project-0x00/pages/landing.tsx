@@ -8,11 +8,11 @@ const Landing: React.FC = () => {
       <h2 className="text-lg font-semibold text-gray-800">Button Variants</h2>
 
       <div className="space-y-2">
-        <Button title="Small / Rounded-sm" size="small" shape="rounded-sm" />
-        <Button title="Medium / Rounded-md" size="medium" shape="rounded-md" />
-        <Button title="Large / Rounded-full" size="large" shape="rounded-full" />
-        <Button title="Small / Rounded-full" size="small" shape="rounded-full" />
-        <Button title="Large / Rounded-sm" size="large" shape="rounded-sm" />
+        <Button title="Small / Rounded-sm" size="small" shape="rounded-sm" styles="bg-blue-600 text-white hover:bg-blue-700 transition" />
+        <Button title="Medium / Rounded-md" size="medium" shape="rounded-md" styles="bg-blue-600 text-white hover:bg-blue-700 transition" />
+        <Button title="Large / Rounded-full" size="large" shape="rounded-full" styles="bg-blue-600 text-white hover:bg-blue-700 transition" />
+        <Button title="Small / Rounded-full" size="small" shape="rounded-full" styles="bg-blue-600 text-white hover:bg-blue-700 transition" />
+        <Button title="Large / Rounded-sm" size="large" shape="rounded-sm" styles="bg-blue-600 text-white hover:bg-blue-700 transition" />
       </div>
       <Card />
     </div>

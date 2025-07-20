@@ -1,3 +1,4 @@
+import React from 'react';
 import { ButtonProps } from '@/interfaces';
 
 const sizeClasses = {
@@ -9,6 +10,7 @@ const sizeClasses = {
 const shapeClasses = {
   'rounded-sm': 'rounded-sm',
   'rounded-md': 'rounded-md',
+  'rounded-lg': 'rounded-lg',
   'rounded-full': 'rounded-full',
 };
 
@@ -17,13 +19,14 @@ const Button: React.FC<ButtonProps> = ({
   size = 'medium',
   shape = 'rounded-md',
   className = '',
+  styles,
 }) => {
   return (
     <button
       className={`
         ${sizeClasses[size]} 
         ${shapeClasses[shape]} 
-        bg-blue-600 text-white hover:bg-blue-700 transition 
+        ${styles}
         ${className}
       `}
     >
