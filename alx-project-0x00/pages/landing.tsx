@@ -13,6 +13,7 @@ const Landing: React.FC = () => {
         <Button title="Large / Rounded-full" size="large" shape="rounded-full" styles="bg-blue-600 text-white hover:bg-blue-700 transition" />
         <Button title="Small / Rounded-full" size="small" shape="rounded-full" styles="bg-blue-600 text-white hover:bg-blue-700 transition" />
         <Button title="Large / Rounded-sm" size="large" shape="rounded-sm" styles="bg-blue-600 text-white hover:bg-blue-700 transition" />
+        <Button title="Large / Rounded-lg" size="large" shape="rounded-lg" styles="bg-blue-600 text-white hover:bg-blue-700 transition" />
       </div>
       <Card />
     </div>
