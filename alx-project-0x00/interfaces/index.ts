@@ -6,6 +6,6 @@ export interface PillProps {
     size?: 'small' | 'medium' | 'large';
     shape?: 'rounded-sm' | 'rounded-md' | 'rounded-full' | 'rounded-lg';
     className?: string;
-    styles?: string;
+    styles: string;
   }
   
